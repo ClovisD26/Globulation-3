@@ -1,0 +1,27 @@
+import sys
+
+env = Environment()
+
+if sys.platform == "linux2":
+  ccflags = '-Wall -ansi -g'
+else:
+  ccflags = '/EHsc /MD /GR'
+
+env.Append(CCFLAGS = ccflags)
+
+sources = Split("""
+TestsRunner.cpp
+
+PerlinNoiseTest.cpp
+../src/PerlinNoise.cpp
+
+HelloWorldTest.cpp
+
+natsort/NatSortTest.cpp
+""")
+
+
+env.Append(LIBS=['cppunit'])
+
+env.Program( sources )
+
