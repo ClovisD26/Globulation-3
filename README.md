@@ -1,5 +1,5 @@
 # Glob 3 #
 
-Globulation 3 is a remake of Globulation 2, a real time strategy game that aims to remove all micro management.
+Globulation 3 is a remake of Globulation 2. It is still in progress. 
 
-Join the Discord: https://discord.gg/B4eTqcJpnA
+![Platform](https://img.shields.io/badge/Platform-Linux-blue.svg)[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA.svg)](https://discord.gg/B4eTqcJpnA)
